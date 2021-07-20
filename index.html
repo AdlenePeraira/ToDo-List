@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="hiddennav">
+        <div class="navbar">
+            <ul>
+                <li onclick="todo()">Todo List</li>&nbsp;&nbsp;
+			    <a href = "index.html" style="text-decoration:none; color:white;" ><li><b>Log Out</b></li></a>
+            </ul>
+        </div>
+    </div>    
+
+    <div class="container" id="list">
+		<h1>Welcome</h1>
+        <img alt="">
+		<form action="#" class="form">
+			<input id="username" type="text" placeholder="Username"><br>
+			<input id="password" type="password" placeholder="Password"><br>
+			<div id="hidden"></div><br>
+			<input id="login-button" type="submit" id="login-button" value="Login" >
+			<div class="hidden"><p>Password and Username Doesn't match</p></div>
+			</form>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
